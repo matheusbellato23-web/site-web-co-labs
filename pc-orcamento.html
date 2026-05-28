@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orçamento de PC | WebCo Labs</title>
+  <meta name="description" content="Conheça o sistema de Orçamento de PC da WebCo Labs. Monte computadores sem medo de incompatibilidade, calcule o TDP e estime preços reais.">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="product-page">
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <a href="index.html" class="logo-wrapper" id="logoLink">
+      <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M46 15L20 30V70L46 85V69L33 61.5V38.5L46 31V15Z" fill="currentColor" class="logo-white"/>
+        <path d="M54 15L80 30V43L54 28V15Z" fill="currentColor" class="logo-white"/>
+        <path d="M54 35.5L80 50.5V59.5L54 44.5V35.5Z" fill="#5C7B99" class="logo-slate"/>
+        <path d="M54 52L80 67V80L54 65V52Z" fill="#1C3245" class="logo-dark-slate"/>
+      </svg>
+      <div class="logo-line"></div>
+      <div class="logo-text-block">
+        <div class="logo-brand">WEBCO</div>
+        <div class="logo-subbrand">LABS</div>
+        <div class="logo-slogan">INTELLIGENT SYSTEMS &amp; AUTOMATION</div>
+      </div>
+    </a>
+    
+    <button class="hamburger" aria-label="Abrir Menu" id="hamburgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html#heroSection" class="nav-link">Home</a></li>
+      <li><a href="index.html#sistemas" class="nav-link">Sistemas</a></li>
+      <li><a href="contato.html" class="nav-link">Contato</a></li>
+    </ul>
+  </header>
+
+  <!-- Product Hero Section -->
+  <section class="product-hero" id="productHero">
+    <div class="container section-padding">
+      <div class="split-layout">
+        <!-- Content -->
+        <div class="content-col scroll-reveal reveal-visible">
+          <span class="content-tag" style="background-color: rgba(0, 140, 255, 0.08); color: var(--color-blue-electric);">Montador Inteligente</span>
+          <h1 style="font-size: 3.5rem; font-weight: 800; letter-spacing: -1.5px; line-height: 1.1;">
+            Monte a sua máquina perfeita com <span class="text-gradient-blue">segurança total</span>.
+          </h1>
+          <p style="font-size: 1.15rem; color: var(--color-text-secondary); line-height: 1.6;">
+            O sistema de <strong>Orçamento de PC</strong> da WebCo Labs elimina as dúvidas na montagem de computadores, verificando a compatibilidade física, lógica e elétrica entre todas as partes selecionadas.
+          </p>
+          <div class="hero-actions" style="margin-top: 10px;">
+            <a href="https://labs.webcoagency.site" target="_blank" class="btn-pill btn-pill-blue">
+              ACESSAR SITE OFICIAL <span class="arrow">→</span>
+            </a>
+            <a href="contato.html" class="btn-pill btn-pill-outline-navy">
+              Falar com Especialista
+            </a>
+          </div>
+        </div>
+        
+        <!-- Graphic Mockup -->
+        <div class="mockup-container scroll-reveal" style="padding: 0;">
+          <div class="main-mockup-wrapper" style="width: 100%; border: 2px solid var(--color-slate-dark);">
+            <img src="assets/pc_builder_mockup.png" alt="Painel do Orçamento de PC">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid Section -->
+  <section class="section-padding" style="background-color: var(--color-section-bg-alt); border-top: 2.5px solid var(--color-slate-dark); border-bottom: 2.5px solid var(--color-slate-dark); position: relative;">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto 60px auto; display: flex; flex-direction: column; gap: 16px;" class="scroll-reveal">
+        <h2 style="font-size: 2.8rem; font-weight: 800; letter-spacing: -1px; color: var(--color-text-main);">Destaques da Plataforma</h2>
+        <p style="color: var(--color-text-secondary); font-size: 1.1rem;">
+          Uma arquitetura planejada para simplificar a jornada do usuário técnico ao iniciante.
+        </p>
+      </div>
+
+      <div class="product-grid-features">
+        <!-- Feature 1 -->
+        <div class="feature-card scroll-reveal">
+          <div class="feature-card-icon navy-bg">🤝</div>
+          <h3>Compatibilidade Física</h3>
+          <p>
+            Análise em tempo real de soquetes de placa-mãe e processador, slots de memória DDR, e dimensões físicas do gabinete frente à placa de vídeo.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card scroll-reveal" style="transition-delay: 0.1s;">
+          <div class="feature-card-icon navy-bg">⚡</div>
+          <h3>Cálculo Térmico e Watts</h3>
+          <p>
+            Consumo energético total calculado dinamicamente com base nas especificações dos fabricantes de GPU, CPU e coolers. Segurança contra subdimensionamento.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card scroll-reveal" style="transition-delay: 0.2s;">
+          <div class="feature-card-icon navy-bg">📂</div>
+          <h3>Catálogo Atualizado</h3>
+          <p>
+            Banco de dados atualizado com as últimas gerações de hardware do mercado (Intel Core, AMD Ryzen, NVIDIA RTX, Radeon).
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card scroll-reveal" style="transition-delay: 0.3s;">
+          <div class="feature-card-icon navy-bg">💵</div>
+          <h3>Estimador Financeiro</h3>
+          <p>
+            Orçamento gerado de maneira clara e exportável em PDF para envio imediato aos clientes ou para controle de gastos do setup.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Split Visual Callout -->
+  <section class="section-padding" style="background-color: var(--color-white); color: var(--color-deep-navy); border-top: 1px solid var(--color-gray-light);">
+    <div class="container">
+      <div class="split-layout">
+        <!-- Text -->
+        <div class="content-col scroll-reveal">
+          <span class="content-tag" style="background-color: rgba(0, 140, 255, 0.08); color: var(--color-blue-electric);">Pronto para Rodar</span>
+          <h2 style="font-size: 3.2rem; font-weight: 800; letter-spacing: -1px; line-height: 1.15;">
+            Experimente agora no ar a versão oficial.
+          </h2>
+          <p style="font-size: 1.1rem; font-weight: 500; color: var(--color-gray-text);">
+            O sistema está totalmente operacional e rodando na nossa subplataforma oficial. Você pode simular montagens inteiras agora mesmo.
+          </p>
+          <div>
+            <a href="https://labs.webcoagency.site" target="_blank" class="btn-pill btn-pill-blue">
+              IR PARA O SISTEMA <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Mockup Display -->
+        <div class="mockup-container scroll-reveal" style="padding: 0;">
+          <div class="main-mockup-wrapper" style="box-shadow: var(--shadow-floating); border-color: rgba(0,0,0,0.05);">
+            <img src="assets/pc_builder_mockup.png" alt="Orçamento de PC Mockup">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-col-brand">
+          <a href="index.html" class="logo-wrapper">
+            <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M46 15L20 30V70L46 85V69L33 61.5V38.5L46 31V15Z" fill="currentColor" class="logo-white"/>
+              <path d="M54 15L80 30V43L54 28V15Z" fill="currentColor" class="logo-white"/>
+              <path d="M54 35.5L80 50.5V59.5L54 44.5V35.5Z" fill="#5C7B99" class="logo-slate"/>
+              <path d="M54 52L80 67V80L54 65V52Z" fill="#1C3245" class="logo-dark-slate"/>
+            </svg>
+            <div class="logo-line"></div>
+            <div class="logo-text-block">
+              <div class="logo-brand">WEBCO</div>
+              <div class="logo-subbrand">LABS</div>
+              <div class="logo-slogan">INTELLIGENT SYSTEMS &amp; AUTOMATION</div>
+            </div>
+          </a>
+          <p class="footer-desc" style="margin-top: 14px;">
+            Sistemas corporativos e soluções de automação que unem design premium, engenharia sólida e alto desempenho comercial.
+          </p>
+        </div>
+        
+        <!-- Products Links -->
+        <div>
+          <h4 class="footer-title">Produtos</h4>
+          <ul class="footer-links">
+            <li><a href="pc-orcamento.html" class="footer-link">Orçamento de PC</a></li>
+            <li><a href="sistema-estoque.html" class="footer-link">Sistema de Estoque</a></li>
+            <li><a href="sistema-agendamento.html" class="footer-link">Agendamento</a></li>
+            <li><a href="https://labs.webcoagency.site" target="_blank" class="footer-link">Labs Oficial</a></li>
+          </ul>
+        </div>
+        
+        <!-- Agency Links -->
+        <div>
+          <h4 class="footer-title">Empresa</h4>
+          <ul class="footer-links">
+            <li><a href="contato.html" class="footer-link">Fale Conosco</a></li>
+            <li><a href="https://wa.me/5511975702321" target="_blank" class="footer-link">WhatsApp</a></li>
+            <li><a href="mailto:contato@webcoagency.site" class="footer-link">contato@webcoagency.site</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact Quick info -->
+        <div>
+          <h4 class="footer-title">Contato Comercial</h4>
+          <p style="font-size: 0.9rem; color: #5c7b99; margin-bottom: 6px;">São Paulo, SP</p>
+          <p style="font-size: 0.95rem; color: var(--color-blue-neon); font-weight: 700;">+55 (11) 97570-2321</p>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 WebCo Labs. Todos os direitos reservados.
+        </p>
+        <div class="footer-socials">
+          <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+          <a href="#" aria-label="Instagram" class="social-icon">ig</a>
+          <a href="https://wa.me/5511975702321" target="_blank" aria-label="WhatsApp" class="social-icon">wa</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5511975702321" target="_blank" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp" id="whatsappFloatingBtn">
+    <svg viewBox="0 0 24 24">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.724-1.466L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.863-9.73 0-2.597-1.011-5.04-2.846-6.877-1.836-1.836-4.279-2.847-6.88-2.847-5.445 0-9.87 4.373-9.873 9.734-.001 1.73.473 3.41 1.37 4.912l-.99 3.61 3.731-.963zm10.82-5.416c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    </svg>
+  </a>
+
+  <!-- JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

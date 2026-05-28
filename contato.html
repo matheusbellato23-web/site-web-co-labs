@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | WebCo Labs</title>
+  <meta name="description" content="Fale com a WebCo Labs. Envie sua mensagem para contato@webcoagency.site ou entre em contato pelo nosso WhatsApp!">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="product-page">
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <a href="index.html" class="logo-wrapper" id="logoLink">
+      <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M46 15L20 30V70L46 85V69L33 61.5V38.5L46 31V15Z" fill="currentColor" class="logo-white"/>
+        <path d="M54 15L80 30V43L54 28V15Z" fill="currentColor" class="logo-white"/>
+        <path d="M54 35.5L80 50.5V59.5L54 44.5V35.5Z" fill="#5C7B99" class="logo-slate"/>
+        <path d="M54 52L80 67V80L54 65V52Z" fill="#1C3245" class="logo-dark-slate"/>
+      </svg>
+      <div class="logo-line"></div>
+      <div class="logo-text-block">
+        <div class="logo-brand">WEBCO</div>
+        <div class="logo-subbrand">LABS</div>
+        <div class="logo-slogan">INTELLIGENT SYSTEMS &amp; AUTOMATION</div>
+      </div>
+    </a>
+    
+    <button class="hamburger" aria-label="Abrir Menu" id="hamburgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html#heroSection" class="nav-link">Home</a></li>
+      <li><a href="index.html#sistemas" class="nav-link">Sistemas</a></li>
+      <li><a href="contato.html" class="nav-link active">Contato</a></li>
+    </ul>
+  </header>
+
+  <!-- Contact Form Section -->
+  <section class="contact-section">
+    <div class="container section-padding">
+      <div style="max-width: 800px; margin: 0 auto 50px auto; text-align: center; display: flex; flex-direction: column; gap: 16px;" class="scroll-reveal reveal-visible">
+        <span class="content-tag" style="background-color: rgba(0, 140, 255, 0.08); color: var(--color-blue-electric); align-self: center;">Conexão Rápida</span>
+        <h1 style="font-size: 3.5rem; font-weight: 800; letter-spacing: -1.5px; line-height: 1.1;">Fale com o <span class="text-gradient-electric">Laboratório</span></h1>
+        <p style="color: var(--color-gray-text); font-size: 1.1rem;">
+          Estamos prontos para tirar suas ideias do papel. Deixe sua mensagem e retornaremos em até 24 horas úteis.
+        </p>
+      </div>
+
+      <!-- Contact Card Container -->
+      <div class="contact-card scroll-reveal">
+        <!-- Info Column -->
+        <div class="contact-info">
+          <div>
+            <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 12px; color: var(--color-text-main);">WebCo Labs</h2>
+            <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.5;">
+              Desenvolvemos produtos digitais de alta performance e automação inteligente.
+            </p>
+          </div>
+
+          <div>
+            <!-- Info 1 -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon">✉️</div>
+              <div>
+                <h4 style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-text-secondary); letter-spacing: 1px;">E-mail Comercial</h4>
+                <a href="mailto:contato@webcoagency.site" style="font-size: 0.95rem; font-weight: 600; color: var(--color-blue-electric);">contato@webcoagency.site</a>
+              </div>
+            </div>
+
+            <!-- Info 2 -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon">💬</div>
+              <div>
+                <h4 style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-text-secondary); letter-spacing: 1px;">WhatsApp</h4>
+                <a href="https://wa.me/5511975702321" target="_blank" style="font-size: 0.95rem; font-weight: 600; color: var(--color-text-main);">+55 (11) 97570-2321</a>
+              </div>
+            </div>
+
+            <!-- Info 3 -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📍</div>
+              <div>
+                <h4 style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-text-secondary); letter-spacing: 1px;">Localização</h4>
+                <p style="font-size: 0.95rem; font-weight: 500; color: var(--color-text-main);">São Paulo, SP - Brasil</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.85rem; color: var(--color-text-muted); border-top: 1px solid var(--color-gray-light); padding-top: 20px;">
+            WebCo Agency Systems.
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" placeholder="Como podemos te chamar?" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail para Contato</label>
+              <input type="email" id="email" placeholder="seuemail@provedor.com" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <input type="text" id="assunto" placeholder="Ex: Customização de Sistema" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" placeholder="Escreva aqui detalhes sobre o seu projeto ou sua dúvida..." class="form-input" required></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn-pill btn-pill-blue btn-submit">
+                ENVIAR MENSAGEM <span class="arrow">→</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-col-brand">
+          <a href="index.html" class="logo-wrapper">
+            <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M46 15L20 30V70L46 85V69L33 61.5V38.5L46 31V15Z" fill="currentColor" class="logo-white"/>
+              <path d="M54 15L80 30V43L54 28V15Z" fill="currentColor" class="logo-white"/>
+              <path d="M54 35.5L80 50.5V59.5L54 44.5V35.5Z" fill="#5C7B99" class="logo-slate"/>
+              <path d="M54 52L80 67V80L54 65V52Z" fill="#1C3245" class="logo-dark-slate"/>
+            </svg>
+            <div class="logo-line"></div>
+            <div class="logo-text-block">
+              <div class="logo-brand">WEBCO</div>
+              <div class="logo-subbrand">LABS</div>
+              <div class="logo-slogan">INTELLIGENT SYSTEMS &amp; AUTOMATION</div>
+            </div>
+          </a>
+          <p class="footer-desc" style="margin-top: 14px;">
+            Sistemas corporativos e soluções de automação que unem design premium, engenharia sólida e alto desempenho comercial.
+          </p>
+        </div>
+        
+        <!-- Products Links -->
+        <div>
+          <h4 class="footer-title">Produtos</h4>
+          <ul class="footer-links">
+            <li><a href="pc-orcamento.html" class="footer-link">Orçamento de PC</a></li>
+            <li><a href="sistema-estoque.html" class="footer-link">Sistema de Estoque</a></li>
+            <li><a href="sistema-agendamento.html" class="footer-link">Agendamento</a></li>
+            <li><a href="https://labs.webcoagency.site" target="_blank" class="footer-link">Labs Oficial</a></li>
+          </ul>
+        </div>
+        
+        <!-- Agency Links -->
+        <div>
+          <h4 class="footer-title">Empresa</h4>
+          <ul class="footer-links">
+            <li><a href="contato.html" class="footer-link">Fale Conosco</a></li>
+            <li><a href="https://wa.me/5511975702321" target="_blank" class="footer-link">WhatsApp</a></li>
+            <li><a href="mailto:contato@webcoagency.site" class="footer-link">contato@webcoagency.site</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact Quick info -->
+        <div>
+          <h4 class="footer-title">Contato Comercial</h4>
+          <p style="font-size: 0.9rem; color: #5c7b99; margin-bottom: 6px;">São Paulo, SP</p>
+          <p style="font-size: 0.95rem; color: var(--color-blue-neon); font-weight: 700;">+55 (11) 97570-2321</p>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 WebCo Labs. Todos os direitos reservados.
+        </p>
+        <div class="footer-socials">
+          <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+          <a href="#" aria-label="Instagram" class="social-icon">ig</a>
+          <a href="https://wa.me/5511975702321" target="_blank" aria-label="WhatsApp" class="social-icon">wa</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5511975702321" target="_blank" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp" id="whatsappFloatingBtn">
+    <svg viewBox="0 0 24 24">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.724-1.466L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.863-9.73 0-2.597-1.011-5.04-2.846-6.877-1.836-1.836-4.279-2.847-6.88-2.847-5.445 0-9.87 4.373-9.873 9.734-.001 1.73.473 3.41 1.37 4.912l-.99 3.61 3.731-.963zm10.82-5.416c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    </svg>
+  </a>
+
+  <!-- Toast Notification System Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

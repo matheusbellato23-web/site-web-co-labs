@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Color Palette - High-tech Light Corporate Theme with Dark Navigation */
+  --color-blue-electric: #008cff;
+  --color-blue-hover: #0073d6;
+  --color-blue-neon: #00b4d8;
+  
+  /* Brand Slates */
+  --color-slate-blue: #5c7b99;
+  --color-slate-dark: #1c3245;
+  
+  /* Text and Backgrounds - Light First */
+  --color-body-bg: #ffffff;
+  --color-section-bg-alt: #f5f8fa;
+  --color-card-bg-light: #ffffff;
+  
+  --color-text-main: #0c1a30;         /* Deep Corporate Navy */
+  --color-text-secondary: #4e657d;    /* Faded Slate Grey */
+  --color-text-muted: #8295a9;
+  
+  /* Header and Footer - Dark Anchors */
+  --color-header-bg: #03090e;
+  --color-footer-bg: #02060a;
+  
+  --color-deep-navy: #03090e;         /* Retained for backward utility */
+  --color-navy-dark: #02060a;
+  --color-black: #010305;
+  --color-white: #ffffff;
+  
+  --color-gray-light: #e2e8f0;
+  --color-gray-text: #4a607a;
+  --color-success: #00c853;
+  --color-error: #d50000;
+  --color-whatsapp: #25d366;
+  
+  /* Fonts */
+  --font-headings: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Borders and Glassmorphism */
+  --border-radius-pill: 9999px;
+  --border-radius-card: 20px;
+  --border-radius-button: 9999px;
+  --border-radius-input: 12px;
+  
+  --border-glass-light: 1px solid rgba(255, 255, 255, 0.08);
+  --border-glass-dark: 1px solid rgba(0, 140, 255, 0.12);
+  --bg-glass-light: rgba(255, 255, 255, 0.03);
+  --bg-glass-dark: rgba(0, 140, 255, 0.01);
+  
+  /* Shadows */
+  --shadow-sm: 0 4px 6px -1px rgba(0, 20, 40, 0.03), 0 2px 4px -1px rgba(0, 20, 40, 0.02);
+  --shadow-md: 0 10px 15px -3px rgba(0, 20, 40, 0.04), 0 4px 6px -2px rgba(0, 20, 40, 0.02);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 20, 40, 0.06), 0 10px 10px -5px rgba(0, 20, 40, 0.02);
+  --shadow-floating: 0 30px 60px -15px rgba(0, 12, 24, 0.15);
+  --shadow-blue-glow: 0 10px 30px -5px rgba(0, 140, 255, 0.2);
+  --shadow-cyan-glow: 0 0 25px rgba(0, 180, 216, 0.15);
+  
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
